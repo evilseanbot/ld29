@@ -1,0 +1,60 @@
+IDEA OF THE GAME:
+
+- You are a nanorobot, tunneling downwards through a person, collecting their cancer.
+- The game is played from a sideview perspective, where you are a robot moving downward, avoiding bones and collecting the colorfull cancer deposits.
+- Sometimes there are blood viens that you pass through. These will push you in a given direction and you have to correct for them.
+- The levels are procedurally generated: As the game goes on, a difficulty variables ticks up which makes more obstacles appear and causes you to fall faster.
+- When you collect all of the cancer pieces, game zooms out to reveal person giving you a thumbs up.
+
+WHAT THE GAME NEEDS:
+
+ART
+==================
+
+- The game has a portrait orientation (Tall, not wide. Maybe 800 wide, 1200 tall)
+
+- Assume the robot is around 100x100, cancer cells probably same.
+
+A nanorobot
+- Falling animation.
+- Limbs flailing around, out of control (When being push around by blood viens)
+- Victory animation
+- Death animation (When falling into bone)
+
+Title screen
+
+Person giving a thumbs up, with insides revealed similarly to the rest of the game (Normal screen zooms out to reveal him.)
+
+Background
+- Air before falling into body (Operating room white? Black?)
+- Skin to break through
+- Tissue (Standard background)
+
+Blood viens flowing either left or right.
+
+Bones (Stick out, take up 2/3rds of the horizontal width at times)
+
+Cancer (It can look weird to make it distinguishable. Glow some strange color?)
+
+A header font and a body font for messages displayed for the game.
+
+MUSIC
+=========================
+
+Fast-paced electronic, futury music for the main game.
+
+If someone has time for it, slower pased, electronic futury music for title/menus.
+
+SOUND EFFECTS
+========================
+Crashing into bone sound
+
+Dropping sound when flying through air before crashing through skin.
+
+Abstract reward sound for collecting cancer.
+
+Zoom out sound when zooming out to show person giving you thumbs up.
+
+Hose sound when blood veins are pushing against you.
+
+Crash for when you break through the skin initially.
