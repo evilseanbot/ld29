@@ -1,5 +1,9 @@
-﻿private var fallingSpeed = 320f;
+﻿var fallingSpeed = 4f;
 
 function FixedUpdate() {
-     rigidbody.velocity.y = fallingSpeed * Time.deltaTime;
+     transform.position.y += fallingSpeed * Time.deltaTime;
+     
+     if (transform.position.y > 20f) {
+         GameObject.Destroy(gameObject);
+     }
 }

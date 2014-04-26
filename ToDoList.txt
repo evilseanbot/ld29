@@ -1,0 +1,40 @@
+GOAL: A play testable game by 6:00pm today.
+
+TO DO:
+
+* Download Android SDK
+    * Try game on android.
+* Improve falling through sky / breaking through skin barrier section.
+* Add person giving you thumbs up.
+* Screen transitions.
+* Music player
+* Sound effects player.
+* Find playtesters.
+* Add missed cancer counters consequence.
+* Add multiple levels
+
+STUFF TO TWEAK:
+* Object rising speed
+* Player movement speed
+* Player movement size
+* Cancer needing to be collected
+* Time to collect cancer
+* Object appearance liklihood.
+
+READ UP ON:
+
+* Looping through a hash map in C#.
+* Declaring hash table type.
+* Changing Unity dimensions.
+
+WHEN ONLINE:
+
+* Play infinite runners, infinite fallers, etc.
+
+DONE:
+* Add blood veins.
+* Add gitignore
+
+=================================
+
+At 12:00 -> Talk to Henry and Chris.

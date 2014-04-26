@@ -1,8 +1,10 @@
 ﻿private var timeTillNextCreation : float = 0f;
 private var timeBetweenCreations = 0.5f;
+
 var bone: GameObject;
 var cancer: GameObject;
-var vein: GameObject;
+var lVein: GameObject;
+var rVein: GameObject;
 
 private var levelLeftEdge = -5f;
 private var levelRightEdge = 5f;
@@ -10,8 +12,11 @@ private var levelRightEdge = 5f;
 private var chances = new Hashtable();
 chances["cancer"] = 1;
 chances["bone"] = 4;
-chances["vein"] = 4;
+chances["lVein"] = 2;
+chances["rVein"] = 2;
 chances["nothing"] = 4;
+    
+private var generationY = 30f;    
     
 function FixedUpdate () {
     if (Time.time > timeTillNextCreation) {
@@ -21,10 +26,10 @@ function FixedUpdate () {
 }
 
 function create() {
-    var newPosition = Vector3(Random.Range(levelLeftEdge, levelRightEdge), -10, 0);
+    var newPosition = Vector3(Random.Range(levelLeftEdge, levelRightEdge), -generationY, 0);
     var newRotation = Quaternion.Euler(0, 0, 0);
     
-    var veinPosition = Vector3(0, -10, 0);
+    var veinPosition = Vector3(0, -generationY, 0);
     
     var objectToCreate = drawObjectFromHat();
     
@@ -32,8 +37,10 @@ function create() {
         var newBone = GameObject.Instantiate(bone, newPosition, newRotation);
     } else if (objectToCreate == "cancer") {
         var newCancer = GameObject.Instantiate(cancer, newPosition, newRotation);
-    } else if (objectToCreate == "vein") {
-        var newVeinr = GameObject.Instantiate(vein, veinPosition, newRotation);
+    } else if (objectToCreate == "lVein") {
+        var newLVein = GameObject.Instantiate(lVein, veinPosition, newRotation);
+    } else if (objectToCreate == "rVein") {
+        var newRVein = GameObject.Instantiate(rVein, veinPosition, newRotation);
     }
 }
 
@@ -49,10 +56,13 @@ function drawObjectFromHat () {
         names.push("bone");
     }    
     
-    for (x = 0; x < 4; x++) {
-        names.push("vein");
+    for (x = 0; x < 2; x++) {
+        names.push("lVein");
     }    
-    
+
+    for (x = 0; x < 2; x++) {
+        names.push("rVein");
+    }            
 
    for (x = 0; x < 8; x++) {
         names.push("nothing");
