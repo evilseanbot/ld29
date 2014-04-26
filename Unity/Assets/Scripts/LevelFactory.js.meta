@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: a2f3b3cd93f9d2c4aa58f951ce43891d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bone: {fileID: 100000, guid: 599747ea82d3f9a4dac94248784c1375, type: 2}
+  - cancer: {fileID: 100000, guid: fb7a21506d7d67c45902f9e469bff3e9, type: 2}
+  - vein: {fileID: 100000, guid: 0d0a0e99dddc79c4996d396774f4e0d4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
