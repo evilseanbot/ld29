@@ -5,6 +5,10 @@ IDEA OF THE GAME:
 - Sometimes there are blood viens that you pass through. These will push you in a given direction and you have to correct for them.
 - The levels are procedurally generated: As the game goes on, a difficulty variables ticks up which makes more obstacles appear and causes you to fall faster.
 - When you collect all of the cancer pieces, game zooms out to reveal person giving you a thumbs up.
+- Different levels involve going through different people who are colored differently, with higher difficulty.
+
+NAME OF THE GAME:
+Nanodrop
 
 WHAT THE GAME NEEDS:
 
@@ -17,7 +21,7 @@ ART
 
 A nanorobot
 - Falling animation.
-- Limbs flailing around, out of control (When being push around by blood viens)
+- Limbs flailing around, out of control (When being pushed around by blood viens)
 - Victory animation
 - Death animation (When falling into bone)
 
@@ -40,12 +44,11 @@ A header font and a body font for messages displayed for the game.
 
 MUSIC
 =========================
-
 Fast-paced electronic, futury music for the main game.
 
 If someone has time for it, slower pased, electronic futury music for title/menus.
 
-SOUND EFFECTS
+SOUND EFFECTS (Possible ways to get sound effects: Freesound.org, BXFR)
 ========================
 Crashing into bone sound
 
@@ -58,3 +61,11 @@ Zoom out sound when zooming out to show person giving you thumbs up.
 Hose sound when blood veins are pushing against you.
 
 Crash for when you break through the skin initially.
+
+OTHER
+===========================
+Keep in mind expansions for the game.
+
+I'd like to get a version done in 24 hours that is playtestable if at all possible and have lots of time to respond to playtester feedback
+
+After that's done, I would like to include suggestions for other things to throw into the game.
