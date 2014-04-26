@@ -8,7 +8,7 @@ IDEA OF THE GAME:
 - Different levels involve going through different people who are colored differently, with higher difficulty.
 
 NAME OF THE GAME:
-Nanodrop
+Nanodrop or nanojump
 
 WHAT THE GAME NEEDS:
 
@@ -62,6 +62,8 @@ Hose sound when blood veins are pushing against you.
 
 Crash for when you break through the skin initially.
 
+Medical machine beeps if you're taking too long without collecting the cancer.
+
 OTHER
 ===========================
 Keep in mind expansions for the game.
@@ -69,3 +71,13 @@ Keep in mind expansions for the game.
 I'd like to get a version done in 24 hours that is playtestable if at all possible and have lots of time to respond to playtester feedback
 
 After that's done, I would like to include suggestions for other things to throw into the game.
+
+VOICE
+===============================
+Person thanking you after you collect the cancer.
+
+PLAYTESTERS
+===============================
+It'd be good if you can tap people to playtest!
+
+Espicially good playtesters are people you can watch play the game, and note how they react to different elements.
