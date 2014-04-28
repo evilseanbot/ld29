@@ -2,21 +2,28 @@ GOAL: A play testable game by 6:00pm today.
 
 TO DO:
 
-* Improve falling through sky / breaking through skin barrier section.
-* Music player
-* Sound effects player.
+* Add title screen.
+* Fix light sprite.
+* Add player sprite.
 * Find playtesters.
 * Download Android SDK
     * Try game on android.
-* Screen transitions?
+    * Add Android touch screens on sides control.
+    * Add seperate controls page for Android.
+* Add eyedropped that the nanobot falls out of.
+* Add story description + Controls.
+* Improve falling through sky / breaking through skin barrier section.€€
+* Add extra elements as level progresses.
+    * Cancer that moves left and right? Unpredictably?
+
 
 STUFF TO TWEAK:
 * Object rising speed
 * Player movement speed
 * Player movement size
 * Cancer needing to be collected
-* Time to collect cancer
 * Object appearance liklihood.
+* How much levels speed up.
 
 READ UP ON:
 
@@ -32,9 +39,16 @@ DONE:
 * Add blood veins.
 * Add gitignore
 * Add multiple levels
-* Add missing cancer mechanics.
+* Add missing cancer mechanics
+* Add crash animation
+* Make game more difficult.
+* Make levels more difficult as time progresses (Have rising speed dependent on level?)
+* Music player
+* Add cancer graphics.
+* Sound effects player.
+* Remove red barrier on opening section.
 
 
-=================================
+================================
 
-At 12:00 -> Talk to Henry and Chris.
+Smash: http://www.freesound.org/people/JoelAudio/sounds/135461/

@@ -1,13 +1,13 @@
 ﻿private var timeTillNextCreation : float = 0f;
-private var timeBetweenCreations = 1f;
+private var timeBetweenCreations = 0.4f;
 
 var bone: GameObject;
 var cancer: GameObject;
 var lVein: GameObject;
 var rVein: GameObject;
 
-private var levelLeftEdge = -3f;
-private var levelRightEdge = 3f;
+private var levelLeftEdge = -6f;
+private var levelRightEdge = 6f;
 
 private var chances = new Hashtable();
 chances["cancer"] = 1;
