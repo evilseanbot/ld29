@@ -2,16 +2,13 @@ GOAL: A play testable game by 6:00pm today.
 
 TO DO:
 
-* Download Android SDK
-    * Try game on android.
 * Improve falling through sky / breaking through skin barrier section.
-* Add person giving you thumbs up.
-* Screen transitions.
 * Music player
 * Sound effects player.
 * Find playtesters.
-* Add missed cancer counters consequence.
-* Add multiple levels
+* Download Android SDK
+    * Try game on android.
+* Screen transitions?
 
 STUFF TO TWEAK:
 * Object rising speed
@@ -34,6 +31,9 @@ WHEN ONLINE:
 DONE:
 * Add blood veins.
 * Add gitignore
+* Add multiple levels
+* Add missing cancer mechanics.
+
 
 =================================
 

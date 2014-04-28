@@ -1,13 +1,13 @@
 ﻿private var timeTillNextCreation : float = 0f;
-private var timeBetweenCreations = 0.5f;
+private var timeBetweenCreations = 1f;
 
 var bone: GameObject;
 var cancer: GameObject;
 var lVein: GameObject;
 var rVein: GameObject;
 
-private var levelLeftEdge = -5f;
-private var levelRightEdge = 5f;
+private var levelLeftEdge = -3f;
+private var levelRightEdge = 3f;
 
 private var chances = new Hashtable();
 chances["cancer"] = 1;
@@ -16,7 +16,7 @@ chances["lVein"] = 2;
 chances["rVein"] = 2;
 chances["nothing"] = 4;
     
-private var generationY = 30f;    
+private var generationY = 15f;    
     
 function FixedUpdate () {
     if (Time.time > timeTillNextCreation) {
@@ -29,7 +29,7 @@ function create() {
     var newPosition = Vector3(Random.Range(levelLeftEdge, levelRightEdge), -generationY, 0);
     var newRotation = Quaternion.Euler(0, 0, 0);
     
-    var veinPosition = Vector3(0, -generationY, 0);
+    var veinPosition = Vector3(0, -generationY, 0.5);
     
     var objectToCreate = drawObjectFromHat();
     
@@ -64,7 +64,7 @@ function drawObjectFromHat () {
         names.push("rVein");
     }            
 
-   for (x = 0; x < 8; x++) {
+   for (x = 0; x < 4; x++) {
         names.push("nothing");
     }    
     

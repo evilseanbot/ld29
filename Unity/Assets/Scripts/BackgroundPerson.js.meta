@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 59cc84b7a792b6d44a35c4e2d25bf67b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - patient1: {fileID: 100002, guid: a93966f6d684b1446ad5ce8ec520fbfd, type: 2}
+  - patient2: {fileID: 100002, guid: d7cb15c9f18da0b40a3cf071c97955c9, type: 2}
+  - patient3: {fileID: 100002, guid: e1a07f992b241d147846b387b95291a4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

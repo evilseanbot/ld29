@@ -1,4 +1,4 @@
-﻿private var moveSpeed = 4f;
+﻿private var moveSpeed = 5f;
 
 function FixedUpdate () {
     var xVel: float = 0f;
