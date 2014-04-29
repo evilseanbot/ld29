@@ -1,5 +1,5 @@
 ﻿private var timeTillNextCreation : float = 0f;
-private var timeBetweenCreations = 0.4f;
+private var timeBetweenCreations = 0.45f;
 
 var bone: GameObject;
 var cancer: GameObject;
@@ -12,8 +12,8 @@ private var levelRightEdge = 6f;
 private var chances = new Hashtable();
 chances["cancer"] = 1;
 chances["bone"] = 4;
-chances["lVein"] = 2;
-chances["rVein"] = 2;
+chances["lVein"] = 1;
+chances["rVein"] = 1;
 chances["nothing"] = 4;
     
 private var generationY = 15f;    
@@ -56,15 +56,15 @@ function drawObjectFromHat () {
         names.push("bone");
     }    
     
-    for (x = 0; x < 2; x++) {
+    for (x = 0; x < 1; x++) {
         names.push("lVein");
     }    
 
-    for (x = 0; x < 2; x++) {
+    for (x = 0; x < 1; x++) {
         names.push("rVein");
     }            
 
-   for (x = 0; x < 4; x++) {
+   for (x = 0; x < 6; x++) {
         names.push("nothing");
     }    
     
